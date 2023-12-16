@@ -1,7 +1,7 @@
 
 
 let timer;
-let minutes = 25;
+let minutes = 30;
 let seconds = 0;
 let isRunning = false;
 
@@ -38,7 +38,7 @@ function updateTimer() {
 function resetTimer() {
     clearInterval(timer);
     isRunning = false;
-    minutes = 25;
+    minutes = 30;
     seconds = 0;
     updateDisplay();
     document.getElementById('startBtn').innerText = 'Start';
