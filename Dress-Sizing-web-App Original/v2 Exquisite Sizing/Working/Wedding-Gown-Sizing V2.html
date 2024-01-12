@@ -23,7 +23,7 @@
     
         #logo {
             max-width: 100%;
-            margin-bottom: 20px;
+            max-height: auto;
             display: block;
             border: 3px solid aliceblue;
             border-radius: 35%;
@@ -36,9 +36,9 @@
         label {
             display: block;
             margin-top: 10px;
-            font-weight: bold;
+            font-style: italic;
             background-color: whitesmoke;
-            border-radius: 10px;
+            border-radius: 5px;
         }
     
         input {
@@ -46,7 +46,8 @@
             margin-top: 5px;
             padding: 5px;
             width: 10%;
-            font-weight: bold; 
+            font-weight: bold;
+            border-radius: 5px;
         }
     
         button {
@@ -54,6 +55,7 @@
             padding: 8px;
             cursor: pointer;
             font-weight: bold;
+            border-radius: 5px;
         }
     
         #gsi-label, #result-label {
@@ -67,6 +69,7 @@
             justify-content: space-evenly;
             padding: 20px;
             background-color: rgb(134, 43, 156);
+            border-radius: 5px;
         }
 
 
@@ -80,12 +83,12 @@
 
     <label for="designer">Select Designer:</label>
     <select id="designer" required>
-        <option value="" disabled selected>Please Select a Designer</option>
-        <option value="1">Eddy K</option>
-        <option value="2">Eddy K Curvy</option>
-        <option value="3">Elissar</option>
-        <option value="4">Randy Fenoli</option>
-        <option value="5">Zakaa</option>
+        <option value="" disabled selected><strong>Please Select a Designer</strong></option>
+        <option value="1"><strong>Eddy K</strong></option>
+        <option value="2"><strong>Eddy K Curvy</strong></option>
+        <option value="3"><strong>Elisssar</strong></option>
+        <option value="4"><strong>Randy Fenoli</strong></option>
+        <option value="5"><strong>Zakaa</strong></option>
     </select>
     
     <label for="bust">Bust measurement:</label>
@@ -275,7 +278,6 @@
 <footer>
     <article> CopyRight 2024 ItsHeyBlinken </article>
     <article>Confidential and Propietary </article>
-    <article>Official Use Only</article>
 </footer>
 
 </html>
