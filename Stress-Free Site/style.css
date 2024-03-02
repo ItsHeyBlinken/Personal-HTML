@@ -1,0 +1,271 @@
+/* Reset box model for all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #dfd5e6;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+/* Header 1 styles */
+h1 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-family: 'Allura';
+    font-size: 56px;
+    color: #333;
+    text-align: center;
+}
+
+/* Tagline styles */
+#tagline {
+    font-size: 25px;
+    font-family: cursive;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Exquisite section styles */
+#exquisite {
+    background-color: #b33fd1; 
+    color: #fff;
+    border: 2px solid #2980b9;
+}
+
+/* Button styles */
+button {
+    /* Styles for your button */
+    margin: 0 auto;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    background-color: #8ba287;
+    width: 150px;
+    height: 50px;
+
+}
+
+button:hover {
+    /* Styles for button on hover */
+    background-color: #a18bba;
+    cursor: pointer;
+}
+
+/* Link styles */
+a {
+    /* Styles for links */
+    color: #1c344e;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+a:hover {
+    /* Styles for links on hover */
+    color: #a18bba;
+}
+
+/* Social links */
+.socials {
+    /* Styles for social links */
+    text-decoration: none;
+    color: #0077cc;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* Bold text */
+#bold {
+    font-weight: bolder;
+}
+
+/* Blockquote styles */
+blockquote {
+    /* Styles for blockquote */
+    background-color:   #f9f9f9;
+    border-radius: 10px; 
+    padding: 20px; 
+    text-align: center; 
+    margin: 0 auto;
+    max-width: 400px; 
+    font-weight: bolder;
+    font-family: 'Gilda';
+    font-size: large;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header 2 and 3 styles */
+h2, h3 {
+    /* Styles for headers 2 and 3 */
+    color: #333;
+    text-align: center;
+    font-family: 'Allura';
+    font-size: 35px;
+}
+
+/* Section Styling */
+section:first-child {
+    width: 100%;
+    padding: 5px; 
+}
+
+section:nth-child(2) {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1; 
+}
+
+
+/* Unordered list styles */
+ul {
+    /* Styles for unordered lists */
+    list-style: none;
+    text-align: center;
+}
+
+.service li {
+    margin-bottom: 10px;
+    padding-left: 20px; 
+    position: relative;
+    text-align: left;
+}
+
+.service li::before {
+    content: '\2022'; 
+    font-size: 14px; 
+    position: absolute;
+    left: 0;
+}
+
+.service ul {
+    list-style-type: none;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background-color: #f9f9f9;
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* Navigation link styles */
+nav a {
+    /* Styles for navigation links */
+    padding: 15px;
+    text-align: center;
+    font-family: 'Gilda Display';
+    font-size: 22px;
+}
+
+#services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: auto;
+    margin: auto;
+}
+
+/* Services section styles */
+.service {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color:   #d8e1d2;
+    border-radius: 10px; 
+    padding: 0 1rem; 
+    margin-bottom: 1rem;
+    flex-basis: 30%;
+}
+
+@media (max-width: 768px) {
+    #services {
+        width: 100%;
+        margin-bottom: 0.5rem;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .service {
+        flex-basis: 100%;
+        margin-bottom: 0.5rem;
+        padding: 1rem; /* adjust padding */
+    }
+}
+
+
+/* Image styles */
+img {
+    /* Styles for images */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#midpic {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Header styles */
+header {
+    /* Styles for header */
+    border: solid thin lightgrey;
+    background-color: #d8e1d2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: cursive;
+}
+
+/* Paragraph styles for services */
+.services-p {
+    /* Styles for service paragraphs */
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 10px 0;
+}
+
+/* General paragraph styles */
+p {
+    /* Styles for paragraphs */
+    text-align: center;
+    line-height: 1.6em;
+    font-size: large;
+}
+
+/* Footer styles */
+footer {
+    /* Styles for footer */
+    text-align: center;
+    background-color: lightbeige;
+    border-top: solid thin lightgrey;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header and banner styles */
+.banner {
+    /* Styles for header and banner */
+    position: relative;
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+/* Logo styles */
+.logo {
+    /* Styles for logo */
+    max-width: 300px;
+    max-height: 100%; 
+    z-index: 2;
+}

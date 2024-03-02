@@ -1,0 +1,109 @@
+
+body {
+    background: linear-gradient(to bottom, #32cd61, #00801c);
+    height: 100vh;
+    font-family: 'MS Comic Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+.heading {
+    max-width: 50%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p.article, p.title {
+    font-family: 'MS Comic Sans', sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 10px 0;
+    color: #fff;
+}
+
+h1.title {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+}
+
+h3.article {
+    font-size: 2rem;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+section:first-child {
+    width: 100%;
+    padding: 5px; 
+}
+
+section:nth-child(2) {
+    display: flex;
+    justify-content: space-around;
+    flex: 1; 
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    justify-content: stretch;
+}
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: larger;
+    text-align: justify;
+    padding: 15px;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+    padding: 20px;
+}
+
+img {
+    max-width: 5%;
+    max-height: fit-content;
+    justify-content: flex-end;
+    display: block;
+    margin: auto;
+}
+
+footer {
+    display: flex;
+    height: auto;
+    background: linear-gradient(to top, #9ACD32, #008000); 
+}
+
+
+footer div {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
